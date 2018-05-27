@@ -1,0 +1,105 @@
+   body{
+    background:#FD3CA2;
+    font-size: 35px;
+    }
+  .caja{
+    
+    color:black;
+    height: 940px;
+    width: 100% auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .gg{
+     margin: 25% ;
+    
+  }
+
+    :root {
+      --color-primary: #41B883;
+      --color-secondary: black;
+      --bg-color: #00BFFF;
+    }
+
+    .btn,
+    .btn-large {
+      background-color: var(--color-primary);
+
+    }
+
+    .btn:hover,
+    .btn-large:hover {
+      background-color: var(--color-secondary);
+    }
+    
+    .form-control{
+      font-size: 30px;
+      margin: 1%;
+    }
+    .btn-primary{
+      margin: 3%;
+      padding: 14px 90px 10px 90px;
+      background: #33A2AB;
+    
+     border-color:#08298A;
+    }
+     .btn2{
+      margin: 5%;
+      padding: 4px 25px 2px 25px;
+    }
+
+    .btn-primary:hover{
+      background-color:#DB2356; 
+      border-color:#494848;
+    }
+    .ModalWindow {
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, .25);
+      display: none;
+    }
+
+    .ModalWindow-container{
+      margin: 14.2vh auto 0;
+      width: 46.41%;
+      
+      background-color: white;
+      
+    }
+
+    .ModalWindow-heading{
+      padding: 0 1rem;
+      background-color:  var(--bg-color);
+      color: black;
+
+    }
+
+    .ModalWindow-content {
+      padding: 2rem;
+      }
+
+    .u-flexColumnCenter {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .u-show {
+      display: initial;
+    }
+    
+    .fade-enter-active,
+    .fade-leave-active {
+      transition: opacity .5s
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+      opacity: 0
+    }
